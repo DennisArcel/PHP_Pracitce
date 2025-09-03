@@ -238,19 +238,144 @@ echo"<h1>Casting</h1>";
 // echo "<br>";
 // var_dump($f);
 
-echo pi();
+// echo pi();
+// echo "<br>";
+// echo min(5, 1, 2);
+// echo "<br>";
+// echo max(5,1, 2);
+// echo "<br>";
+// echo abs(-10);
+// echo "<br>";
+// echo sqrt(225);
+// echo "<br>";
+// echo round(3.45);
+// echo "<br>";
+// echo rand(1, 10);
+
+// echo "<hr>";
+
+// echo "<h1>CONSTANTS</h1>"; //Constant 
+
+// $x = 10;
+// define("GREETING", [1,2,3,4]);
+
+// // echo $x;
+// // echo "<br>";
+// // var_dump(GREETING);
+
+// const _GREETING2 = "Hello People!";
+
+// echo _GREETING2;
+
+// function test() {
+//     echo _GREETING2;
+// }
+// test();
+
+// echo $x;
+// unset($x);
+
+// echo "<hr>";
+// echo "<h1>ARITHMETIC</h1>";
+// // ADDITION +
+
+// echo 10 + 20 + 30 + 40 + 50;
+
+// echo "<br>";
+// // SUBTRACTION - 
+
+// echo "<br>";
+// echo 10 - 6 - 2 - 1 - .5;
+
+// //add $ subtract
+// echo 10+20-30+10+50;
+
+// echo "<br>";
+// // MULTIPLICATION *
+// echo 10 * 8 * 7;
+
+// echo "<br>";
+// // DIVISION
+// echo 1000/100/10;
+
+// //Divide $ Multiply
+// echo "<br>";
+// echo 10 / 5 * 2;
+
+// //Add Division || Add Multi
+// echo "<br>";
+// echo 50 + 10 / 2 ;
+// //Division and Multiplication before Add and Subtract
+
+// echo "<br>";
+// // EXPONENTIAL **
+// echo 5 ** 2;
+
+// echo "<br>";
+// // MODULUS %
+// echo 5 % 3;
+
+// echo "<hr>";
+// echo "<h1>ASSIGNMENT</h1>";
+
+// $x = 10; // equal
+// // $x += $x; //($x = $x + $x)Add Equal
+// // $x -= 10; //($x = $x - 10)Subtract Equal
+// // $x /= 10; //($x = $x / 10)Divide Equal
+// // $x *= 10; //($x = $x * 10)Multiply Equal
+
+// echo "<hr>";
+// echo "<h1>COMPARISON</h1>";
+
+//  //Equal to == if similar value
+//  var_dump(10 == 9);
+//  echo "<br>";
+
+//  //Identical === not similar value and data type
+//  var_dump(10 === "10");
+//  echo "<br>";
+
+//  //!= not equal or <>
+// var_dump(10 <> 10);
+//  echo "<br>";
+
+//  //!== not Identical - not similar value and data type
+// var_dump(10 !== 10);
+//  echo "<br>";
+
+//  //< Less than - Checks if first is less than the second value
+// var_dump(0 < 10);
+// echo "<br>";
+
+//  //> Greater than - check if first value is higher
+//  var_dump(12 > 10);
+//  echo "<br>";
+
+//  //<= Less than or equal to -Checks if the first value is equal or less than the second
+//  var_dump(12 <= 10);
+//  echo "<br>";
+ 
+//  //> Greater than or equal to - Check if first If Higher or equal than second
+//  var_dump(12 >= 10);
+//   echo "<br>";
+ 
+//  //<=> Spaceship
+//  var_dump(12 <=> 10);
+//   echo "<br>";
+
+echo "<hr>";
+echo "<h1>INCREEMENT AND DECREEMENT</h1>";
+
+$x = 10; //Pre-increement
+echo ++$x;
 echo "<br>";
-echo min(5, 1, 2);
-echo "<br>";
-echo max(5,1, 2);
-echo "<br>";
-echo abs(-10);
-echo "<br>";
-echo sqrt(225);
-echo "<br>";
-echo round(3.45);
-echo "<br>";
-echo rand(1, 10);
+
+$y = 10; //Post-Increement
+echo $y++;
+
+
+
+
 
 
 
